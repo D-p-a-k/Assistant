@@ -8,6 +8,10 @@ class ActionProvider {
     const message = this.createChatBotMessage("Hello friend.");
     this.addMessageToState(message);
   };
+  search = () => {
+    const message = this.createChatBotMessage("Provide me some details to search");
+    this.addMessageToState(message);
+  };
 
   handleJavascriptQuiz = () => {
     const message = this.createChatBotMessage(
